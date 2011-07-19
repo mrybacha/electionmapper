@@ -106,9 +106,6 @@ var _gaq = _gaq || [];
 					</tr>
 					<tr>
 						<td></td>
-					</tr>
-					<tr>
-						<td></td>
 						<td>Registered Voters</td>
 						<td class="right"><?php echo number_format($totalvoters,0,'.',',');?></td>
 						<td></td>

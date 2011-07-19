@@ -60,7 +60,7 @@ var _gaq = _gaq || [];
               <h2>Riding Introduction</h2>
 
 				<h3>Historical Election Results in <?php echo $year; ?></h3>
-				<p><a href="/election/results/<?php echo $year ."/". $ridingrow->fednum;?>">Official Voting Results</a> | <a href="/election/map/<?php echo $year ."/". $ridingrow->fednum;?>">View Map of Results</a>
+				<p><a href="/election/results/<?php echo $year ."/". $ridingrow->fednum;?>">Voting Results</a> | <a href="/election/map/<?php echo $year ."/". $ridingrow->fednum;?>">View Map of Results</a>
 				<form method="post" action="" onsubmit="return dropdown(this.gourl)">Poll-by-Poll Results: <select name="gourl"><option value="">--SELECT--</option>
 				<?php foreach ($query->result_array() as $row): ?>
 				<option value="/election/results/<?php echo $year ."/". $ridingrow->fednum ."/". $row['poll']; ?>">

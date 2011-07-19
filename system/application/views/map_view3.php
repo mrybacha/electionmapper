@@ -121,9 +121,6 @@ foreach ($query->result() as $divisionrow)
 					</tr>
 					<tr>
 						<td></td>
-					</tr>
-					<tr>
-						<td></td>
 						<td>Registered Voters</td>
 						<td align="right">'.number_format($divisionrow->totalvoters,0,'.',',').'</td>
 						<td></td>
